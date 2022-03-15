@@ -1,0 +1,49 @@
+which card to play to win
+    is suit spades:? 
+    Yes
+        has the queen of spades been played?    
+        yes 
+            play greatest of suit END
+        no
+            play greatest that is less than queen END
+    no 
+        play greatest of suit END
+
+
+which card to play if going first?
+    do you have 2 clubs
+        yes 
+            play 2 clubs END
+        no 
+            have less than 1/4 remainging or less of suit excluding hearts and spades and no player out of that suit
+                yes
+                    play highest of that suit
+                no
+                    play lowest card in hand END
+
+            
+which card to play to lose
+    do you have suit of trick? ; done in win los descion
+        yes 
+            do you have card less than trick greatest
+            yes
+               play card less than trick greatest END
+               
+               /*is greatest less than trick greatest
+                yes ; all one rule probably done wiht multiple parts
+                    play greatest
+                no
+                    play less than suit greatest
+            no
+                then play greteast of that suit END
+        no ;defined
+            have queen of spades, or highest heart?
+            yes
+                play that END
+            no
+                play greatest of suit have least of in hand END
+
+
+
+
+

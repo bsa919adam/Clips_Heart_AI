@@ -1,0 +1,8 @@
+(clear)
+(load "deck_facts.clp")
+(load "tests.clp")
+(load "win_lose_DT_rules.clp")
+(load "card_select_win.clp")
+(load "play_first_DT.clp")
+(load "card_select_loseDT.clp")
+(reset)
